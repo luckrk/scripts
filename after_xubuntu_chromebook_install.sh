@@ -32,7 +32,7 @@ sudo apt-get -y install \
 sudo apt-get -y install \
     xfce4-clipman
 # system changes
-echo "vm.swappiness = 1" | sudo tee /etc/sysctl.conf
+echo "vm.swappiness = 1" | sudo tee -a /etc/sysctl.conf
 
 # requires clicks
 sudo apt-get install -y xubuntu-restricted-extras
